@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 382ee0d921a7be85a4bff8acdd13f9ae50a8d542a8b5ef90c53f52bc6e5ee7de
+-- hash: a802b7111c3687928894676cfc8861da0d1212f34d20f4ad04226b8259e57b95
 
 name:           practical-haskell
 version:        0.1.0.0
@@ -27,6 +27,7 @@ source-repository head
 
 library
   exposed-modules:
+      Chapter2.SimpleFunctions
       Lib
   other-modules:
       Paths_practical_haskell
